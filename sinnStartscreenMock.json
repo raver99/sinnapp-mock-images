@@ -6,7 +6,7 @@
       "priority": 10,
       "margin": "0,10,0,15",
       "aspectRatio": 0.8,
-      "spacing": 8,
+      "spacing": 50,
       "images": [
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/brand1.jpg",
