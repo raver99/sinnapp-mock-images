@@ -5,7 +5,7 @@
       "type": "SinnCarouselWidget",
       "priority": 10,
       "margin": "0,10,0,15",
-      "aspectRatio": 0.6,
+      "aspectRatio": 1,
       "images": [
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
