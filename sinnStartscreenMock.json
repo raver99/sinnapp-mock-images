@@ -24,7 +24,7 @@
       "type": "SinnCarouselWidget",
       "priority": 20,
       "margin": "0,15,0,15",
-      "aspectRatio": 0.5,
+      "aspectRatio": 2,
       "header": "Many Items Carousel",
       "images": [
         {
