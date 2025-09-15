@@ -1,17 +1,67 @@
 {
   "items": [
     {
-      "id": "multi-carousel-few-items",
-      "type": "MultiCarouselWidget",
+      "id": "sinn-carousel-basic",
+      "type": "SinnCarouselWidget",
       "priority": 10,
       "margin": "0,10,0,15",
-      "aspectRatio": 0.8,
-      "spacing": 50,
+      "aspectRatio": 0.6,
       "images": [
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand1.jpg",
-          "deeplink": "sinnapp://brand/1"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
+          "header": "New",
+          "deeplink": "sinnapp://category/new"
         },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
+          "header": "Sale",
+          "deeplink": "sinnapp://category/sale"
+        }
+      ]
+    },
+    {
+      "id": "sinn-carousel-many-items",
+      "type": "SinnCarouselWidget",
+      "priority": 20,
+      "margin": "0,15,0,15",
+      "aspectRatio": 0.5,
+      "header": "Many Items Carousel",
+      "images": [
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/springcollection.jpg",
+          "header": "Spring",
+          "deeplink": "sinnapp://season/spring"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
+          "header": "New",
+          "deeplink": "sinnapp://category/new"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
+          "header": "Sale",
+          "deeplink": "sinnapp://category/sale"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/trending.jpg",
+          "header": "Trending",
+          "deeplink": "sinnapp://category/trending"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand1.jpg",
+          "header": "Brand 1",
+          "deeplink": "sinnapp://brand/1"
+        }
+      ]
+    },
+    {
+      "id": "sinn-carousel-no-headers",
+      "type": "SinnCarouselWidget",
+      "priority": 30,
+      "margin": "0,15,0,15",
+      "aspectRatio": 0.7,
+      "header": "No Item Headers",
+      "images": [
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/brand2.jpg",
           "deeplink": "sinnapp://brand/2"
@@ -23,96 +73,24 @@
       ]
     },
     {
-      "id": "multi-carousel-many-items",
-      "type": "MultiCarouselWidget",
-      "priority": 20,
-      "margin": "0,15,0,15",
-      "aspectRatio": 0.6,
-      "spacing": 10,
-      "images": [
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/springcollection.jpg",
-          "deeplink": "sinnapp://item/1"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
-          "deeplink": "sinnapp://item/2"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
-          "deeplink": "sinnapp://item/3"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/trending.jpg",
-          "deeplink": "sinnapp://item/4"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand1.jpg",
-          "deeplink": "sinnapp://item/5"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand2.jpg",
-          "deeplink": "sinnapp://item/6"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand3.jpg",
-          "deeplink": "sinnapp://item/7"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/bonuspoints.jpg",
-          "deeplink": "sinnapp://item/8"
-        }
-      ]
-    },
-    {
-      "id": "multi-carousel-square",
-      "type": "MultiCarouselWidget",
-      "priority": 30,
-      "margin": "0,15,0,15",
-      "aspectRatio": 1.0,
-      "spacing": 15,
-      "images": [
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/mypurchases.jpg",
-          "deeplink": "sinnapp://square/1"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/personaldiscount.jpg",
-          "deeplink": "sinnapp://square/2"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/bonuspoints.jpg",
-          "deeplink": "sinnapp://square/3"
-        }
-      ]
-    },
-    {
-      "id": "multi-carousel-tall",
-      "type": "MultiCarouselWidget",
+      "id": "sinn-carousel-mixed",
+      "type": "SinnCarouselWidget",
       "priority": 40,
       "margin": "0,15,0,20",
       "aspectRatio": 0.4,
-      "spacing": 2,
       "images": [
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/springcollection.jpg",
-          "deeplink": "sinnapp://tall/1"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/bonuspoints.jpg",
+          "header": "Bonus",
+          "deeplink": "sinnapp://bonus"
         },
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
-          "deeplink": "sinnapp://tall/2"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/mypurchases.jpg",
+          "deeplink": "sinnapp://receipts"
         },
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
-          "deeplink": "sinnapp://tall/3"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/trending.jpg",
-          "deeplink": "sinnapp://tall/4"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand1.jpg",
-          "deeplink": "sinnapp://tall/5"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/personaldiscount.jpg",
+          "header": "Personal"
         }
       ]
     }
