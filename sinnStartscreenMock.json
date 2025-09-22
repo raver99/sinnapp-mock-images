@@ -1,136 +1,109 @@
 {
-  "items": [
+  items":" [
     {
-      "id": "text-widget-demo",
+      "id": "priority-25",
+      "type": "TextWidget",
+      "priority": 25,
+      "margin": "0,10,0,5",
+      "text": "Priority 25 - Should be last",
+      "fontName": "defaultbold",
+      "fontSize": 18,
+      "audience": "any"
+    },
+    {
+      "id": "priority-25-subtitle",
+      "type": "TextWidget",
+      "priority": 26,
+      "margin": "0,5,0,15",
+      "text": "This widget has the highest priority number",
+      "fontName": "default",
+      "fontSize": 14,
+      "textColor": "#6c757d",
+      "audience": "any"
+    },
+    {
+      "id": "priority-5",
+      "type": "TextWidget",
+      "priority": 5,
+      "margin": "0,10,0,5",
+      "text": "Priority 5 - Should be first",
+      "fontName": "defaultbold",
+      "fontSize": 18,
+      "audience": "any"
+    },
+    {
+      "id": "priority-5-subtitle",
+      "type": "TextWidget",
+      "priority": 6,
+      "margin": "0,5,0,15",
+      "text": "This widget has the lowest priority number",
+      "fontName": "default",
+      "fontSize": 14,
+      "textColor": "#6c757d",
+      "audience": "any"
+    },
+    {
+      "id": "priority-15",
+      "type": "TextWidget",
+      "priority": 15,
+      "margin": "0,10,0,5",
+      "text": "Priority 15 - Should be middle",
+      "fontName": "defaultbold",
+      "fontSize": 18,
+      "audience": "any"
+    },
+    {
+      "id": "priority-15-subtitle",
+      "type": "TextWidget",
+      "priority": 16,
+      "margin": "0,5,0,15",
+      "text": "This widget has a medium priority number",
+      "fontName": "default",
+      "fontSize": 14,
+      "textColor": "#6c757d",
+      "audience": "any"
+    },
+    {
+      "id": "priority-10-first",
       "type": "TextWidget",
       "priority": 10,
-      "margin": "15,20,15,10",
-      "text": "Demo TextWidget",
-      "deeplink": "sinnapp://demo/text",
+      "margin": "0,10,0,5",
+      "text": "Priority 10 - First of two",
       "fontName": "defaultbold",
-      "fontSize": 20,
-      "textColor": "#333333"
+      "fontSize": 18,
+      "audience": "any"
     },
     {
-      "id": "image-widget-demo",
-      "type": "ImageWidget",
-      "priority": 20,
-      "margin": "0,10,0,10",
-      "aspectRatio": 1.78,
-      "image": "https://raver99.github.io/sinnapp-mock-images/images/bonuspoints.jpg",
-      "deeplink": "sinnapp://demo/image"
+      "id": "priority-10-first-subtitle",
+      "type": "TextWidget",
+      "priority": 11,
+      "margin": "0,5,0,15",
+      "text": "Equal priority - should maintain server order (first)",
+      "fontName": "default",
+      "fontSize": 14,
+      "textColor": "#6c757d",
+      "audience": "any"
     },
     {
-      "id": "sinn-carousel-demo",
-      "type": "SinnCarouselWidget",
-      "priority": 30,
-      "margin": "0,10,0,15",
-      "aspectRatio": 0.3,
-      "height": 400,
-      "header": "Sinn Carousel Demo",
-      "images": [
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel1.jpg",
-          "deeplink": "sinnapp://demo/carousel/1",
-          "header": "Slide 1"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel2.jpg",
-          "deeplink": "sinnapp://demo/carousel/2",
-          "header": "Slide 2"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel3.jpg",
-          "deeplink": "sinnapp://demo/carousel/3",
-          "header": "Slide 3"
-        }
-      ]
+      "id": "priority-10-second",
+      "type": "TextWidget",
+      "priority": 12,
+      "margin": "0,10,0,5",
+      "text": "Priority 10 - Second of two",
+      "fontName": "defaultbold",
+      "fontSize": 18,
+      "audience": "any"
     },
     {
-      "id": "single-carousel-demo",
-      "type": "SingleCarouselWidget",
-      "priority": 40,
-      "margin": "0,15,0,15",
-      "aspectRatio": 1.2,
-      "header": "Single Carousel with Indicators",
-      "images": [
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
-          "deeplink": "sinnapp://demo/single/1"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
-          "deeplink": "sinnapp://demo/single/2"
-        }
-      ]
-    },
-    {
-      "id": "multi-carousel-demo",
-      "type": "MultiCarouselWidget",
-      "priority": 50,
-      "margin": "0,15,0,15",
-      "aspectRatio": 0.8,
-      "images": [
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand1.jpg",
-          "deeplink": "sinnapp://demo/multi/1"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand2.jpg",
-          "deeplink": "sinnapp://demo/multi/2"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand3.jpg",
-          "deeplink": "sinnapp://demo/multi/3"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/trending.jpg",
-          "deeplink": "sinnapp://demo/multi/4"
-        }
-      ]
-    },
-    {
-      "id": "two-cards-demo",
-      "type": "TwoCardsWidget",
-      "priority": 60,
-      "margin": "20,15,20,20",
-      "images": [
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/cardleft.jpg",
-          "deeplink": "sinnapp://demo/card/left"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/cardright.jpg",
-          "deeplink": "sinnapp://demo/card/right"
-        }
-      ]
-    },
-    {
-      "id": "button-primary-demo",
-      "type": "ButtonWidget",
-      "priority": 70,
-      "margin": "0,20,0,10",
-      "text": "Shop Now",
-      "style": "primary",
-      "deeplink": "sinnapp://demo/button/primary"
-    },
-    {
-      "id": "button-secondary-demo",
-      "type": "ButtonWidget",
-      "priority": 80,
-      "margin": "0,10,0,10",
-      "text": "Learn More",
-      "style": "secondary",
-      "deeplink": "sinnapp://demo/button/secondary"
-    },
-    {
-      "id": "button-alternate-demo",
-      "type": "ButtonWidget",
-      "priority": 90,
-      "margin": "0,10,0,20",
-      "text": "View Details",
-      "style": "alternate",
-      "deeplink": "sinnapp://demo/button/alternate"
+      "id": "priority-10-second-subtitle",
+      "type": "TextWidget",
+      "priority": 13,
+      "margin": "0,5,0,15",
+      "text": "Equal priority - should maintain server order (second)",
+      "fontName": "default",
+      "fontSize": 14,
+      "textColor": "#6c757d",
+      "audience": "any"
     }
   ]
 }
