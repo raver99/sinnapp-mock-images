@@ -1,5 +1,5 @@
 {
-  items":" [
+  "items": [
     {
       "id": "priority-25",
       "type": "TextWidget",
