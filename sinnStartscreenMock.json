@@ -1,109 +1,98 @@
 {
   "items": [
     {
-      "id": "priority-25",
-      "type": "TextWidget",
-      "priority": 25,
-      "margin": "0,10,0,5",
-      "text": "Priority 25 - Should be last",
-      "fontName": "defaultbold",
-      "fontSize": 18,
-      "audience": "any"
-    },
-    {
-      "id": "priority-25-subtitle",
-      "type": "TextWidget",
-      "priority": 26,
-      "margin": "0,5,0,15",
-      "text": "This widget has the highest priority number",
-      "fontName": "default",
-      "fontSize": 14,
-      "textColor": "#6c757d",
-      "audience": "any"
-    },
-    {
-      "id": "priority-5",
-      "type": "TextWidget",
-      "priority": 5,
-      "margin": "0,10,0,5",
-      "text": "Priority 5 - Should be first",
-      "fontName": "defaultbold",
-      "fontSize": 18,
-      "audience": "any"
-    },
-    {
-      "id": "priority-5-subtitle",
-      "type": "TextWidget",
-      "priority": 6,
-      "margin": "0,5,0,15",
-      "text": "This widget has the lowest priority number",
-      "fontName": "default",
-      "fontSize": 14,
-      "textColor": "#6c757d",
-      "audience": "any"
-    },
-    {
-      "id": "priority-15",
-      "type": "TextWidget",
-      "priority": 15,
-      "margin": "0,10,0,5",
-      "text": "Priority 15 - Should be middle",
-      "fontName": "defaultbold",
-      "fontSize": 18,
-      "audience": "any"
-    },
-    {
-      "id": "priority-15-subtitle",
-      "type": "TextWidget",
-      "priority": 16,
-      "margin": "0,5,0,15",
-      "text": "This widget has a medium priority number",
-      "fontName": "default",
-      "fontSize": 14,
-      "textColor": "#6c757d",
-      "audience": "any"
-    },
-    {
-      "id": "priority-10-first",
+      "id": "text-deeplink",
       "type": "TextWidget",
       "priority": 10,
-      "margin": "0,10,0,5",
-      "text": "Priority 10 - First of two",
+      "margin": "0,15,0,5",
+      "text": "Text Widget with Deeplink",
       "fontName": "defaultbold",
-      "fontSize": 18,
+      "fontSize": 20,
+      "textAlignment": "center",
+      "textColor": "#007bff",
+      "deeplink": "sinnapp://inspiration",
       "audience": "any"
     },
     {
-      "id": "priority-10-first-subtitle",
+      "id": "text-deeplink-subtitle",
       "type": "TextWidget",
       "priority": 11,
       "margin": "0,5,0,15",
-      "text": "Equal priority - should maintain server order (first)",
+      "text": "Tap to navigate",
       "fontName": "default",
       "fontSize": 14,
+      "textAlignment": "center",
       "textColor": "#6c757d",
       "audience": "any"
     },
     {
-      "id": "priority-10-second",
-      "type": "TextWidget",
-      "priority": 12,
-      "margin": "0,10,0,5",
-      "text": "Priority 10 - Second of two",
-      "fontName": "defaultbold",
-      "fontSize": 18,
-      "audience": "any"
+      "id": "image-deeplink",
+      "type": "ImageWidget",
+      "priority": 20,
+      "aspectRatio": 0.5,
+      "image": "https://raver99.github.io/sinnapp-mock-images/images/springcollection.jpg",
+      "deeplink": "sinnapp://shops"
     },
     {
-      "id": "priority-10-second-subtitle",
-      "type": "TextWidget",
-      "priority": 13,
-      "margin": "0,5,0,15",
-      "text": "Equal priority - should maintain server order (second)",
-      "fontName": "default",
-      "fontSize": 14,
-      "textColor": "#6c757d",
-      "audience": "any"
+      "id": "carousel-deeplinks",
+      "type": "SinnCarouselWidget",
+      "priority": 30,
+      "aspectRatio": 0.6,
+      "deeplink": "sinnapp://test/carousel-fallback",
+      "images": [
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
+          "deeplink": "sinnapp://promotion",
+          "header": "Item 1"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
+          "deeplink": "sinnapp://news",
+          "header": "Item 2"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/trending.jpg",
+          "header": "No Deeplink"
+        }
+      ]
+    },
+    {
+      "id": "cards-deeplinks",
+      "type": "TwoCardsWidget",
+      "priority": 40,
+      "images": [
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/cardleft.jpg",
+          "deeplink": "sinnapp://news"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/cardright.jpg",
+          "deeplink": "sinnapp://shops"
+        }
+      ]
+    },
+    {
+      "id": "button-deeplink-primary",
+      "type": "ButtonWidget",
+      "priority": 50,
+      "text": "Button with Deeplink",
+      "style": "primary",
+      "deeplink": "sinnapp://account"
+    },
+    {
+      "id": "button-deeplink-secondary",
+      "type": "ButtonWidget",
+      "priority": 60,
+      "text": "Secondary Button",
+      "style": "secondary",
+      "deeplink": "sinnapp://coupons"
+    },
+    {
+      "id": "button-no-deeplink",
+      "type": "ButtonWidget",
+      "priority": 70,
+      "text": "Button No Deeplink",
+      "style": "alternate"
     }
   ]
 }
