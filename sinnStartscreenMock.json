@@ -1,83 +1,75 @@
 {
   "items": [
     {
-      "id": "priority-zero",
-      "type": "TextWidget",
-      "priority": 0,
-      "margin": "0,10,0,5",
-      "text": "Priority Zero",
-      "fontName": "defaultbold",
-      "fontSize": 18,
-      "audience": "any"
-    },
-    {
-      "id": "priority-zero-subtitle",
-      "type": "TextWidget",
-      "priority": 1,
-      "margin": "0,5,0,15",
-      "text": "Minimum priority value",
-      "fontName": "default",
-      "fontSize": 14,
-      "textColor": "#6c757d",
-      "audience": "any"
-    },
-    {
-      "id": "priority-max",
-      "type": "TextWidget",
-      "priority": 999999,
-      "margin": "0,10,0,5",
-      "text": "Priority Maximum",
-      "fontName": "defaultbold",
-      "fontSize": 18,
-      "audience": "any"
-    },
-    {
-      "id": "priority-max-subtitle",
-      "type": "TextWidget",
-      "priority": 999998,
-      "margin": "0,5,0,15",
-      "text": "Very high priority value",
-      "fontName": "default",
-      "fontSize": 14,
-      "textColor": "#6c757d",
-      "audience": "any"
-    },
-    {
-      "id": "aspect-tiny",
-      "type": "ImageWidget",
+      "id": "button-primary-basic",
+      "type": "ButtonWidget",
       "priority": 10,
-      "aspectRatio": 0.1,
-      "image": "https://raver99.github.io/sinnapp-mock-images/images/springcollection.jpg"
+      "margin": "0,20,0,10",
+      "text": "Shop Now",
+      "style": "primary",
+      "deeplink": "sinnapp://shops"
     },
     {
-      "id": "aspect-huge",
-      "type": "ImageWidget",
+      "id": "button-secondary-basic",
+      "type": "ButtonWidget",
       "priority": 20,
-      "aspectRatio": 10.0,
-      "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg"
+      "margin": "0,10,0,10",
+      "text": "Learn More",
+      "style": "secondary",
+      "deeplink": "sinnapp://inspiration"
     },
     {
-      "id": "long-text",
-      "type": "TextWidget",
+      "id": "button-alternate-basic",
+      "type": "ButtonWidget",
       "priority": 30,
-      "margin": "0,15,0,5",
-      "text": "Very Long Title That Goes On And On And On And Might Wrap Multiple Lines Or Cause Layout Issues If Not Handled Properly In The UI Component",
-      "fontName": "defaultbold",
-      "fontSize": 16,
-      "textAlignment": "start",
-      "audience": "any"
+      "margin": "0,10,0,10",
+      "text": "View Details",
+      "style": "alternate",
+      "deeplink": "sinnapp://promotion"
     },
     {
-      "id": "long-text-subtitle",
-      "type": "TextWidget",
-      "priority": 31,
-      "margin": "0,5,0,20",
-      "text": "This is an extremely long subtitle that contains a lot of text to test how the widget handles very long content that might exceed normal expected lengths and could potentially cause layout problems or performance issues if not properly handled by the rendering system and text wrapping mechanisms.",
-      "fontName": "default",
-      "fontSize": 14,
-      "textAlignment": "start",
-      "textColor": "#6c757d",
-      "audience": "any"
+      "id": "button-primary-long-text",
+      "type": "ButtonWidget",
+      "priority": 40,
+      "margin": "0,10,0,10",
+      "text": "Discover Our Latest Collection",
+      "style": "primary",
+      "deeplink": "sinnapp://inspiration"
+    },
+    {
+      "id": "button-secondary-emoji",
+      "type": "ButtonWidget",
+      "priority": 50,
+      "margin": "0,10,0,10",
+      "text": "🛍️ Start Shopping",
+      "style": "secondary",
+      "deeplink": "sinnapp://news"
+    },
+    {
+      "id": "button-alternate-short",
+      "type": "ButtonWidget",
+      "priority": 60,
+      "margin": "0,10,0,10",
+      "text": "Go",
+      "style": "alternate",
+      "deeplink": "sinnapp://coupons"
+    },
+    {
+      "id": "button-primary-no-deeplink",
+      "type": "ButtonWidget",
+      "priority": 70,
+      "margin": "0,10,0,10",
+      "text": "No Action Button",
+      "style": "primary"
+    },
+    {
+      "id": "button-mixed-margins",
+      "type": "ButtonWidget",
+      "priority": 80,
+      "margin": "20,30,20,40",
+      "text": "Custom Margins",
+      "style": "secondary",
+      "deeplink": "sinnapp://account"
     }
   ]
 }
