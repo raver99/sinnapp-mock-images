@@ -23,6 +23,7 @@
       "fontSize": 14,
       "textAlignment": "center",
       "textColor": "#6c757d",
+      "deeplink": "sinnapp://news",
       "audience": "any"
     },
     {
