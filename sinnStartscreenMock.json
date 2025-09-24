@@ -1,41 +1,83 @@
 {
   "items": [
     {
-      "id": "aspect-wide",
+      "id": "priority-zero",
+      "type": "TextWidget",
+      "priority": 0,
+      "margin": "0,10,0,5",
+      "text": "Priority Zero",
+      "fontName": "defaultbold",
+      "fontSize": 18,
+      "audience": "any"
+    },
+    {
+      "id": "priority-zero-subtitle",
+      "type": "TextWidget",
+      "priority": 1,
+      "margin": "0,5,0,15",
+      "text": "Minimum priority value",
+      "fontName": "default",
+      "fontSize": 14,
+      "textColor": "#6c757d",
+      "audience": "any"
+    },
+    {
+      "id": "priority-max",
+      "type": "TextWidget",
+      "priority": 999999,
+      "margin": "0,10,0,5",
+      "text": "Priority Maximum",
+      "fontName": "defaultbold",
+      "fontSize": 18,
+      "audience": "any"
+    },
+    {
+      "id": "priority-max-subtitle",
+      "type": "TextWidget",
+      "priority": 999998,
+      "margin": "0,5,0,15",
+      "text": "Very high priority value",
+      "fontName": "default",
+      "fontSize": 14,
+      "textColor": "#6c757d",
+      "audience": "any"
+    },
+    {
+      "id": "aspect-tiny",
       "type": "ImageWidget",
       "priority": 10,
-      "aspectRatio": 1.78,
-      "image": "https://raver99.github.io/sinnapp-mock-images/images/springcollection.jpg",
-      "deeplink": "sinnapp://test/wide"
+      "aspectRatio": 0.1,
+      "image": "https://raver99.github.io/sinnapp-mock-images/images/springcollection.jpg"
     },
     {
-      "id": "aspect-square",
+      "id": "aspect-huge",
       "type": "ImageWidget",
       "priority": 20,
-      "aspectRatio": 1.0,
-      "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
-      "deeplink": "sinnapp://test/square"
+      "aspectRatio": 10.0,
+      "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg"
     },
     {
-      "id": "aspect-tall",
-      "type": "ImageWidget",
+      "id": "long-text",
+      "type": "TextWidget",
       "priority": 30,
-      "aspectRatio": 0.5,
-      "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
-      "deeplink": "sinnapp://test/tall"
+      "margin": "0,15,0,5",
+      "text": "Very Long Title That Goes On And On And On And Might Wrap Multiple Lines Or Cause Layout Issues If Not Handled Properly In The UI Component",
+      "fontName": "defaultbold",
+      "fontSize": 16,
+      "textAlignment": "start",
+      "audience": "any"
     },
     {
-      "id": "carousel-aspect",
-      "type": "SinnCarouselWidget",
-      "priority": 40,
-      "aspectRatio": 0.75,
-      "height": 280,
-      "images": [
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/trending.jpg",
-          "header": "3:4 Aspect"
-        }
-      ]
+      "id": "long-text-subtitle",
+      "type": "TextWidget",
+      "priority": 31,
+      "margin": "0,5,0,20",
+      "text": "This is an extremely long subtitle that contains a lot of text to test how the widget handles very long content that might exceed normal expected lengths and could potentially cause layout problems or performance issues if not properly handled by the rendering system and text wrapping mechanisms.",
+      "fontName": "default",
+      "fontSize": 14,
+      "textAlignment": "start",
+      "textColor": "#6c757d",
+      "audience": "any"
     }
   ]
 }
