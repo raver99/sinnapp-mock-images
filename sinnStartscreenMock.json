@@ -94,6 +94,49 @@
       "priority": 70,
       "text": "Button No Deeplink",
       "style": "alternate"
+    },
+    {
+      "id": "single-carousel-demo",
+      "type": "SingleCarouselWidget",
+      "priority": 80,
+      "margin": "0,15,0,15",
+      "aspectRatio": 1.2,
+      "header": "Single Carousel with Indicators",
+      "images": [
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
+          "deeplink": "sinnapp://promotion"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
+          "deeplink": "sinnapp://inspiration"
+        }
+      ]
+    },
+    {
+      "id": "multi-carousel-demo",
+      "type": "MultiCarouselWidget",
+      "priority": 90,
+      "margin": "0,15,0,15",
+      "aspectRatio": 0.8,
+      "images": [
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand1.jpg",
+          "deeplink": "sinnapp://account"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand2.jpg",
+          "deeplink": "sinnapp://news"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand3.jpg",
+          "deeplink": "sinnapp://coupons"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/trending.jpg",
+          "deeplink": "sinnapp://promotion"
+        }
+      ]
     }
   ]
 }
