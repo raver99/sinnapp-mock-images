@@ -1,140 +1,39 @@
 {
   "items": [
     {
-      "id": "text-deeplink",
-      "type": "TextWidget",
+      "id": "aspect-wide",
+      "type": "ImageWidget",
       "priority": 10,
-      "margin": "0,15,0,5",
-      "text": "Text Widget with Deeplink",
-      "fontName": "defaultbold",
-      "fontSize": 20,
-      "textAlignment": "center",
-      "textColor": "#007bff",
-      "deeplink": "sinnapp://inspiration",
-      "audience": "any"
+      "aspectRatio": 1.78,
+      "image": "https://raver99.github.io/sinnapp-mock-images/images/springcollection.jpg",
+      "deeplink": "sinnapp://test/wide"
     },
     {
-      "id": "text-deeplink-subtitle",
-      "type": "TextWidget",
-      "priority": 11,
-      "margin": "0,5,0,15",
-      "text": "Tap to navigate",
-      "fontName": "default",
-      "fontSize": 14,
-      "textAlignment": "center",
-      "textColor": "#6c757d",
-      "deeplink": "sinnapp://news",
-      "audience": "any"
-    },
-    {
-      "id": "image-deeplink",
+      "id": "aspect-square",
       "type": "ImageWidget",
       "priority": 20,
-      "aspectRatio": 0.5,
-      "image": "https://raver99.github.io/sinnapp-mock-images/images/springcollection.jpg",
-      "deeplink": "sinnapp://shops"
+      "aspectRatio": 1.0,
+      "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
+      "deeplink": "sinnapp://test/square"
     },
     {
-      "id": "carousel-deeplinks",
-      "type": "SinnCarouselWidget",
+      "id": "aspect-tall",
+      "type": "ImageWidget",
       "priority": 30,
-      "aspectRatio": 0.6,
-      "deeplink": "sinnapp://test/carousel-fallback",
-      "images": [
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
-          "deeplink": "sinnapp://promotion",
-          "header": "Item 1"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
-          "deeplink": "sinnapp://news",
-          "header": "Item 2"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/trending.jpg",
-          "header": "No Deeplink"
-        }
-      ]
+      "aspectRatio": 0.5,
+      "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
+      "deeplink": "sinnapp://test/tall"
     },
     {
-      "id": "cards-deeplinks",
-      "type": "TwoCardsWidget",
+      "id": "carousel-aspect",
+      "type": "SinnCarouselWidget",
       "priority": 40,
+      "aspectRatio": 0.75,
+      "height": 280,
       "images": [
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/cardleft.jpg",
-          "deeplink": "sinnapp://news"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/cardright.jpg",
-          "deeplink": "sinnapp://shops"
-        }
-      ]
-    },
-    {
-      "id": "button-deeplink-primary",
-      "type": "ButtonWidget",
-      "priority": 50,
-      "text": "Button with Deeplink",
-      "style": "primary",
-      "deeplink": "sinnapp://account"
-    },
-    {
-      "id": "button-deeplink-secondary",
-      "type": "ButtonWidget",
-      "priority": 60,
-      "text": "Secondary Button",
-      "style": "secondary",
-      "deeplink": "sinnapp://coupons"
-    },
-    {
-      "id": "button-no-deeplink",
-      "type": "ButtonWidget",
-      "priority": 70,
-      "text": "Button No Deeplink",
-      "style": "alternate"
-    },
-    {
-      "id": "single-carousel-demo",
-      "type": "SingleCarouselWidget",
-      "priority": 80,
-      "margin": "0,15,0,15",
-      "aspectRatio": 1.2,
-      "header": "Single Carousel with Indicators",
-      "images": [
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
-          "deeplink": "sinnapp://promotion"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
-          "deeplink": "sinnapp://inspiration"
-        }
-      ]
-    },
-    {
-      "id": "multi-carousel-demo",
-      "type": "MultiCarouselWidget",
-      "priority": 90,
-      "margin": "0,15,0,15",
-      "aspectRatio": 0.8,
-      "images": [
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand1.jpg",
-          "deeplink": "sinnapp://account"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand2.jpg",
-          "deeplink": "sinnapp://news"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand3.jpg",
-          "deeplink": "sinnapp://coupons"
-        },
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/trending.jpg",
-          "deeplink": "sinnapp://promotion"
+          "header": "3:4 Aspect"
         }
       ]
     }
