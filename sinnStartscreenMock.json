@@ -67,15 +67,15 @@
       "images": [
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
-          "deeplink": "sinnapp://store/dortmund"
+          "deeplink": "sinnapp://inspiration"
         },
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
-          "deeplink": "sinnapp://store/duesseldorf"
+          "deeplink": "sinnapp://shops"
         },
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel2.jpg",
-          "deeplink": "sinnapp://store/cologne"
+          "deeplink": "sinnapp://promotion"
         }
       ]
     },
