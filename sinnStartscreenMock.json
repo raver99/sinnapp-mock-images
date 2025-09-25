@@ -19,7 +19,7 @@
       "priority": 20,
       "margin": "0,10,0,10",
       "aspectRatio": 0.4,
-      "image": "promotions/summer-promotion.jpg",
+      "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
       "deeplink": "sinnapp://promotion",
       "audience": "any"
     },
