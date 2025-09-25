@@ -41,17 +41,17 @@
       "aspectRatio": 0.75,
       "images": [
         {
-          "image": "features/account-overview.jpg",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel3.jpg",
           "deeplink": "sinnapp://account",
           "header": "Account"
         },
         {
-          "image": "features/receipts-overview.jpg", 
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel2.jpg",
           "deeplink": "sinnapp://receipts",
           "header": "Receipts"
         },
         {
-          "image": "features/settings-overview.jpg",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel1.jpg",
           "deeplink": "sinnapp://settings", 
           "header": "Settings"
         }
@@ -66,15 +66,15 @@
       "header": "Our Stores",
       "images": [
         {
-          "image": "stores/dortmund-store.jpg",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
           "deeplink": "sinnapp://store/dortmund"
         },
         {
-          "image": "stores/duesseldorf-store.jpg",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
           "deeplink": "sinnapp://store/duesseldorf"
         },
         {
-          "image": "stores/cologne-store.jpg",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel2.jpg",
           "deeplink": "sinnapp://store/cologne"
         }
       ]
@@ -87,19 +87,19 @@
       "aspectRatio": 1.0,
       "images": [
         {
-          "image": "navigation/news-tile.jpg",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand3.jpg",
           "deeplink": "sinnapp://news"
         },
         {
-          "image": "navigation/shops-tile.jpg", 
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/trending.jpg",
           "deeplink": "sinnapp://shops"
         },
         {
-          "image": "navigation/inspiration-tile.jpg",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand1.jpg",
           "deeplink": "sinnapp://inspiration"
         },
         {
-          "image": "navigation/coupons-tile.jpg",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand2.jpg",
           "deeplink": "sinnapp://coupons"
         }
       ]
@@ -111,11 +111,11 @@
       "margin": "15,10,15,20",
       "images": [
         {
-          "image": "features/loyalty-card.jpg",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/cardright.jpg",
           "deeplink": "sinnapp://loyalty"
         },
         {
-          "image": "features/profile-card.jpg",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/cardleft.jpg",
           "deeplink": "sinnapp://profile"
         }
       ]
@@ -149,7 +149,7 @@
       "priority": 100,
       "margin": "0,10,0,20",
       "aspectRatio": 0.6,
-      "image": "external/sinn-website.jpg", 
+      "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel1.jpg",
       "deeplink": "https://sinn.com",
       "audience": "any"
     }
