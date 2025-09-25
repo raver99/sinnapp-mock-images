@@ -62,7 +62,7 @@
       "type": "SingleCarouselWidget",
       "priority": 50,
       "margin": "0,10,0,20", 
-      "aspectRatio": 1.2,
+      "aspectRatio": 1,
       "header": "Our Stores",
       "images": [
         {
