@@ -112,11 +112,11 @@
       "images": [
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/cardright.jpg",
-          "deeplink": "sinnapp://loyalty"
+          "deeplink": "sinnapp://inspiration"
         },
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/cardleft.jpg",
-          "deeplink": "sinnapp://profile"
+          "deeplink": "sinnapp://shops"
         }
       ]
     },
