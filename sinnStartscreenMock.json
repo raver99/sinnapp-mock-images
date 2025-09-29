@@ -8,7 +8,8 @@
       "text": "Herzlich willkommen, {{firstName}}!",
       "deeplink": "sinnapp://demo/text",
       "fontName": "defaultbold",
-      "fontSize": 20,
+      "fontSize": 40,
+      "textAlignment": "center",
       "textColor": "#dbc4a9",
       "audience": "loggedIn"
     },
@@ -31,8 +32,7 @@
       "priority": 20,
       "margin": "0,10,0,10",
       "aspectRatio": 1.78,
-      "image": "https://raver99.github.io/sinnapp-mock-images/images/bonuspoints.jpg",
-      "deeplink": "sinnapp://demo/image"
+      "image": "https://raver99.github.io/sinnapp-mock-images/images/bonuspoints.jpg"
     },
     {
       "id": "sinn-carousel-demo",
@@ -46,17 +46,17 @@
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel1.jpg",
           "deeplink": "sinnapp://demo/carousel/1",
-          "header": "Slide 1"
+          "header": "Pullover-Inspiration"
         },
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel2.jpg",
           "deeplink": "sinnapp://demo/carousel/2",
-          "header": "Slide 2"
+          "header": "Farbkombination"
         },
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel3.jpg",
           "deeplink": "sinnapp://demo/carousel/3",
-          "header": "Slide 3"
+          "header": "Jeans inspiration"
         }
       ]
     },
@@ -70,11 +70,11 @@
       "images": [
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
-          "deeplink": "sinnapp://demo/single/1"
+          "deeplink": "sinnapp://inspiration"
         },
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
-          "deeplink": "sinnapp://demo/single/2"
+          "deeplink": "sinnapp://promotion"
         }
       ]
     },
@@ -86,20 +86,20 @@
       "aspectRatio": 0.8,
       "images": [
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand1.jpg",
-          "deeplink": "sinnapp://demo/multi/1"
+          "image": "https://github.com/raver99/sinnapp-mock-images/blob/main/images/news.png",
+          "deeplink": "sinnapp://news"
         },
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand2.jpg",
-          "deeplink": "sinnapp://demo/multi/2"
+          "image": "https://github.com/raver99/sinnapp-mock-images/blob/main/images/Sinn%20Shop.png",
+          "deeplink": "sinnapp://shops"
         },
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/brand3.jpg",
-          "deeplink": "sinnapp://demo/multi/3"
+          "image": "https://github.com/raver99/sinnapp-mock-images/blob/main/images/app%20settings.png",
+          "deeplink": "sinnapp://settings"
         },
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/trending.jpg",
-          "deeplink": "sinnapp://demo/multi/4"
+          "image": "https://github.com/raver99/sinnapp-mock-images/blob/main/images/receipts.png",
+          "deeplink": "sinnapp://receipts"
         }
       ]
     },
