@@ -32,7 +32,7 @@
       "priority": 20,
       "margin": "0,10,0,10",
       "aspectRatio": 1.78,
-      "image": "https://raver99.github.io/sinnapp-mock-images/images/inspiration 8.png"
+      "image": "https://raver99.github.io/sinnapp-mock-images/images/inspiration8.png"
     },
     {
       "id": "sinn-carousel-demo",
@@ -45,17 +45,17 @@
       "images": [
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel1.jpg",
-          "deeplink": "sinnapp://demo/carousel/1",
+          "deeplink": "sinnapp://inspiration",
           "header": "Pullover-Inspiration"
         },
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel2.jpg",
-          "deeplink": "sinnapp://demo/carousel/2",
+          "deeplink": "sinnapp://inspiration",
           "header": "Farbkombination"
         },
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel3.jpg",
-          "deeplink": "sinnapp://demo/carousel/3",
+          "deeplink": "sinnapp://inspiration",
           "header": "Jeans inspiration"
         }
       ]
@@ -86,19 +86,19 @@
       "aspectRatio": 0.8,
       "images": [
         {
-          "image": "https://github.com/raver99/sinnapp-mock-images/blob/main/images/news.png",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/news.png",
           "deeplink": "sinnapp://news"
         },
         {
-          "image": "https://github.com/raver99/sinnapp-mock-images/blob/main/images/Sinn%20Shop.png",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/Sinn_Shop.png",
           "deeplink": "sinnapp://shops"
         },
         {
-          "image": "https://github.com/raver99/sinnapp-mock-images/blob/main/images/app%20settings.png",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/app_settings.png",
           "deeplink": "sinnapp://settings"
         },
         {
-          "image": "https://github.com/raver99/sinnapp-mock-images/blob/main/images/receipts.png",
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/receipts.png",
           "deeplink": "sinnapp://receipts"
         }
       ]
