@@ -18,7 +18,6 @@
       "type": "TextWidget",
       "priority": 20,
       "margin": "20,5,20,15",
-      "audience": "loggedIn",
       "text": "Entdecke unsere neuesten Angebote und Inspirationen.",
       "fontName": "default",
       "fontSize": 16,
@@ -39,7 +38,7 @@
       "type": "SinnCarouselWidget",
       "priority": 30,
       "margin": "0,10,0,15",
-      "aspectRatio": 0.3,
+      "aspectRatio": 0.4,
       "height": 400,
       "header": "Sinn Carousel Demo",
       "images": [
@@ -86,20 +85,20 @@
       "aspectRatio": 0.8,
       "images": [
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/news.png",
-          "deeplink": "sinnapp://news"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/Outfit1.png",
+          "deeplink": "sinnapp://inspiration"
         },
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/Sinn_Shop.png",
-          "deeplink": "sinnapp://shops"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/Outfit2.png",
+          "deeplink": "sinnapp://inspiration"
         },
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/app_settings.png",
-          "deeplink": "sinnapp://settings"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/Outfit3.png",
+          "deeplink": "sinnapp://inspiration"
         },
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/receipts.png",
-          "deeplink": "sinnapp://receipts"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/Outfit4.png",
+          "deeplink": "sinnapp://inspiration"
         }
       ]
     },
@@ -110,12 +109,12 @@
       "margin": "20,15,20,20",
       "images": [
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/cardleft.jpg",
-          "deeplink": "sinnapp://demo/card/left"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/Sinn_Shop.png",
+          "deeplink": "sinnapp://shops"
         },
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/cardright.jpg",
-          "deeplink": "sinnapp://demo/card/right"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/receipts.png",
+          "deeplink": "sinnapp://receipts"
         }
       ]
     },
@@ -124,27 +123,27 @@
       "type": "ButtonWidget",
       "priority": 70,
       "margin": "0,20,0,10",
-      "text": "Shop Now",
+      "text": "Angebote ansehen",
       "style": "primary",
-      "deeplink": "sinnapp://demo/button/primary"
+      "deeplink": "sinnapp://promotion"
     },
     {
       "id": "button-secondary-demo",
       "type": "ButtonWidget",
       "priority": 80,
       "margin": "0,10,0,10",
-      "text": "Learn More",
+      "text": "Meine Coupons",
       "style": "secondary",
-      "deeplink": "sinnapp://demo/button/secondary"
+      "deeplink": "sinnapp://coupons"
     },
     {
       "id": "button-alternate-demo",
       "type": "ButtonWidget",
       "priority": 90,
       "margin": "0,10,0,20",
-      "text": "View Details",
+      "text": "Filialen finden",
       "style": "alternate",
-      "deeplink": "sinnapp://demo/button/alternate"
+      "deeplink": "sinnapp://shops"
     }
   ]
 }
