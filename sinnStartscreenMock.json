@@ -1,16 +1,16 @@
 {
   "items": [
     {
-      "id": "welcome-title",
+      "id": "text-widget-demo",
       "type": "TextWidget",
       "priority": 10,
-      "margin": "20,10,20,5",
-      "audience": "loggedIn",
+      "margin": "15,20,15,10",
       "text": "Herzlich willkommen, {{firstName}}!",
+      "deeplink": "sinnapp://demo/text",
       "fontName": "defaultbold",
-      "fontSize": 22,
-      "textAlignment": "center",
-      "textColor": "#dbc4a9
+      "fontSize": 20,
+      "textColor": "#dbc4a9",
+      "audience": "loggedIn"
     },
     {
       "id": "welcome-subtitle",
@@ -22,127 +22,129 @@
       "fontName": "default",
       "fontSize": 16,
       "textAlignment": "center",
-      "textColor": "#cccccc"
+      "textColor": "#dbc4a9",
+      "audience": "any"
     },
     {
-      "id": "promotion-banner",
+      "id": "image-widget-demo",
       "type": "ImageWidget",
-      "priority": 30,
+      "priority": 20,
       "margin": "0,10,0,10",
       "aspectRatio": 1.78,
-      "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
-      "deeplink": "sinnapp://promotion"
+      "image": "https://raver99.github.io/sinnapp-mock-images/images/bonuspoints.jpg",
+      "deeplink": "sinnapp://demo/image"
     },
     {
       "id": "sinn-carousel-demo",
       "type": "SinnCarouselWidget",
-      "priority": 40,
+      "priority": 30,
       "margin": "0,10,0,15",
-      "aspectRatio": 0.75,
-      "header": "Highlights",
+      "aspectRatio": 0.3,
+      "height": 400,
+      "header": "Sinn Carousel Demo",
+      "images": [
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel1.jpg",
+          "deeplink": "sinnapp://demo/carousel/1",
+          "header": "Slide 1"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel2.jpg",
+          "deeplink": "sinnapp://demo/carousel/2",
+          "header": "Slide 2"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel3.jpg",
+          "deeplink": "sinnapp://demo/carousel/3",
+          "header": "Slide 3"
+        }
+      ]
+    },
+    {
+      "id": "single-carousel-demo",
+      "type": "SingleCarouselWidget",
+      "priority": 40,
+      "margin": "0,15,0,15",
+      "aspectRatio": 1.2,
+      "header": "Single Carousel with Indicators",
       "images": [
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/newarrivals.jpg",
-          "deeplink": "sinnapp://news",
-          "header": "Neuheiten"
+          "deeplink": "sinnapp://demo/single/1"
         },
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/trending.jpg",
-          "deeplink": "sinnapp://inspiration",
-          "header": "Inspiration"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/bonuspoints.jpg",
-          "deeplink": "sinnapp://loyalty",
-          "header": "Treuepunkte"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
+          "deeplink": "sinnapp://demo/single/2"
         }
       ]
     },
     {
-      "id": "single-carousel-stores",
-      "type": "SingleCarouselWidget",
-      "priority": 50,
-      "margin": "0,10,0,20",
-      "aspectRatio": 1.2,
-      "header": "Unsere Stores",
-      "images": [
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/store1.jpg",
-          "deeplink": "sinnapp://stores"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/store2.jpg",
-          "deeplink": "sinnapp://stores"
-        },
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/store3.jpg",
-          "deeplink": "sinnapp://stores"
-        }
-      ]
-    },
-    {
-      "id": "multi-carousel-brands",
+      "id": "multi-carousel-demo",
       "type": "MultiCarouselWidget",
-      "priority": 60,
-      "margin": "0,10,0,20",
+      "priority": 50,
+      "margin": "0,15,0,15",
       "aspectRatio": 0.8,
       "images": [
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/brand1.jpg",
-          "deeplink": "sinnapp://shops"
+          "deeplink": "sinnapp://demo/multi/1"
         },
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/brand2.jpg",
-          "deeplink": "sinnapp://shops"
+          "deeplink": "sinnapp://demo/multi/2"
         },
         {
           "image": "https://raver99.github.io/sinnapp-mock-images/images/brand3.jpg",
-          "deeplink": "sinnapp://shops"
-        }
-      ]
-    },
-    {
-      "id": "two-cards-features",
-      "type": "TwoCardsWidget",
-      "priority": 70,
-      "margin": "15,10,15,20",
-      "images": [
-        {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/mypurchases.jpg",
-          "deeplink": "sinnapp://receipts"
+          "deeplink": "sinnapp://demo/multi/3"
         },
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/loyalty.jpg",
-          "deeplink": "sinnapp://loyalty"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/trending.jpg",
+          "deeplink": "sinnapp://demo/multi/4"
         }
       ]
     },
     {
-      "id": "button-primary",
+      "id": "two-cards-demo",
+      "type": "TwoCardsWidget",
+      "priority": 60,
+      "margin": "20,15,20,20",
+      "images": [
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/cardleft.jpg",
+          "deeplink": "sinnapp://demo/card/left"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/cardright.jpg",
+          "deeplink": "sinnapp://demo/card/right"
+        }
+      ]
+    },
+    {
+      "id": "button-primary-demo",
+      "type": "ButtonWidget",
+      "priority": 70,
+      "margin": "0,20,0,10",
+      "text": "Shop Now",
+      "style": "primary",
+      "deeplink": "sinnapp://demo/button/primary"
+    },
+    {
+      "id": "button-secondary-demo",
       "type": "ButtonWidget",
       "priority": 80,
-      "margin": "0,20,0,10",
-      "text": "Jetzt einkaufen",
-      "style": "primary",
-      "deeplink": "sinnapp://shops"
+      "margin": "0,10,0,10",
+      "text": "Learn More",
+      "style": "secondary",
+      "deeplink": "sinnapp://demo/button/secondary"
     },
     {
-      "id": "button-secondary",
+      "id": "button-alternate-demo",
       "type": "ButtonWidget",
       "priority": 90,
-      "margin": "0,10,0,10",
-      "text": "Mehr erfahren",
-      "style": "secondary",
-      "deeplink": "sinnapp://inspiration"
-    },
-    {
-      "id": "button-alternate",
-      "type": "ButtonWidget",
-      "priority": 100,
       "margin": "0,10,0,20",
-      "text": "Details ansehen",
+      "text": "View Details",
       "style": "alternate",
-      "deeplink": "sinnapp://promotion"
+      "deeplink": "sinnapp://demo/button/alternate"
     }
   ]
 }
