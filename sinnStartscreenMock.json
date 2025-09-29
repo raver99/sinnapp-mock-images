@@ -1,55 +1,144 @@
 {
   "items": [
     {
-      "id": "welcome-logged-in",
+      "id": "text-title",
       "type": "TextWidget",
-      "priority": 5,
-      "margin": "0,20,0,5",
-      "audience": "loggedIn",
-      "text": "Willkommen zurück {{firstName}}!",
+      "priority": 10,
+      "margin": "20,10,10,10",
+      "audience": "any",
+      "text": "Herzlich willkommen {{firstName}}!",
       "fontName": "defaultbold",
-      "fontSize": 22,
+      "fontSize": 24,
       "textAlignment": "center",
-      "textColor": "#28a745"
+      "textColor": "#000000"
     },
     {
-      "id": "welcome-logged-in-subtitle",
+      "id": "text-subtitle",
       "type": "TextWidget",
-      "priority": 6,
-      "margin": "0,5,0,10",
-      "audience": "loggedIn",
-      "text": "Deine persönlichen Angebote warten auf dich",
+      "priority": 20,
+      "margin": "0,10,20,10",
+      "audience": "any",
+      "text": "Entdecke jetzt unsere neuesten Angebote und Inspirationen.",
       "fontName": "default",
       "fontSize": 16,
       "textAlignment": "center",
       "textColor": "#6c757d"
     },
     {
-      "id": "personal-offer-1",
+      "id": "image-banner",
       "type": "ImageWidget",
-      "priority": 15,
-      "margin": "0,10,0,10",
-      "aspectRatio": 0.4,
-      "image": "https://raver99.github.io/sinnapp-mock-images/images/personaldiscount.jpg",
-      "deeplink": "sinnapp://coupons",
-      "audience": "loggedIn"
+      "priority": 30,
+      "margin": "10,10,20,10",
+      "aspectRatio": 0.5,
+      "image": "https://raver99.github.io/sinnapp-mock-images/images/saleitems.jpg",
+      "deeplink": "sinnapp://promotion",
+      "audience": "any"
     },
     {
-      "id": "account-actions",
-      "type": "TwoCardsWidget",
-      "priority": 25,
-      "margin": "15,10,15,20",
-      "audience": "loggedIn",
+      "id": "sinn-carousel",
+      "type": "SinnCarouselWidget",
+      "priority": 40,
+      "margin": "0,10,20,10",
+      "aspectRatio": 0.75,
       "images": [
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/mypurchases.jpg",
-          "deeplink": "sinnapp://receipts"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel1.jpg",
+          "deeplink": "sinnapp://account",
+          "header": "Mein Konto"
         },
         {
-          "image": "https://raver99.github.io/sinnapp-mock-images/images/bonuspoints.jpg",
-          "deeplink": "sinnapp://coupons"
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel2.jpg",
+          "deeplink": "sinnapp://receipts",
+          "header": "Meine Einkäufe"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/carousel3.jpg",
+          "deeplink": "sinnapp://settings",
+          "header": "Einstellungen"
         }
       ]
+    },
+    {
+      "id": "single-carousel",
+      "type": "SingleCarouselWidget",
+      "priority": 50,
+      "margin": "0,10,20,10",
+      "aspectRatio": 1.2,
+      "header": "Unsere Stores",
+      "images": [
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/store1.jpg",
+          "deeplink": "sinnapp://store/berlin"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/store2.jpg",
+          "deeplink": "sinnapp://store/munich"
+        }
+      ]
+    },
+    {
+      "id": "multi-carousel",
+      "type": "MultiCarouselWidget",
+      "priority": 60,
+      "margin": "0,10,20,10",
+      "aspectRatio": 1.0,
+      "images": [
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/news.jpg",
+          "deeplink": "sinnapp://news"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/shops.jpg",
+          "deeplink": "sinnapp://shops"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/inspiration.jpg",
+          "deeplink": "sinnapp://inspiration"
+        }
+      ]
+    },
+    {
+      "id": "two-cards",
+      "type": "TwoCardsWidget",
+      "priority": 70,
+      "margin": "15,10,20,10",
+      "images": [
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/card1.jpg",
+          "deeplink": "sinnapp://loyalty"
+        },
+        {
+          "image": "https://raver99.github.io/sinnapp-mock-images/images/card2.jpg",
+          "deeplink": "sinnapp://profile"
+        }
+      ]
+    },
+    {
+      "id": "button-primary",
+      "type": "ButtonWidget",
+      "priority": 80,
+      "margin": "10,10,10,10",
+      "text": "Jetzt einkaufen",
+      "style": "primary",
+      "deeplink": "sinnapp://shops"
+    },
+    {
+      "id": "button-secondary",
+      "type": "ButtonWidget",
+      "priority": 90,
+      "margin": "10,10,10,10",
+      "text": "Mehr erfahren",
+      "style": "secondary",
+      "deeplink": "sinnapp://inspiration"
+    },
+    {
+      "id": "button-alternate",
+      "type": "ButtonWidget",
+      "priority": 100,
+      "margin": "10,10,20,10",
+      "text": "Details ansehen",
+      "style": "alternate",
+      "deeplink": "sinnapp://promotion"
     }
   ]
 }
