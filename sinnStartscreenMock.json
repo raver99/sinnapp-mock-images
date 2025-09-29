@@ -8,7 +8,7 @@
       "text": "Herzlich willkommen, {{firstName}}!",
       "deeplink": "sinnapp://demo/text",
       "fontName": "defaultbold",
-      "fontSize": 40,
+      "fontSize": 30,
       "textAlignment": "center",
       "textColor": "#dbc4a9",
       "audience": "loggedIn"
@@ -32,7 +32,7 @@
       "priority": 20,
       "margin": "0,10,0,10",
       "aspectRatio": 1.78,
-      "image": "https://github.com/raver99/sinnapp-mock-images/blob/main/images/inspiration%208.png"
+      "image": "https://raver99.github.io/sinnapp-mock-images/images/inspiration 8.png"
     },
     {
       "id": "sinn-carousel-demo",
