@@ -38,7 +38,7 @@
       "type": "SinnCarouselWidget",
       "priority": 70,
       "margin": "0,10,0,15",
-      "aspectRatio": 0.4,
+      "aspectRatio": 0.5,
       "height": 400,
       "header": "Sinn Carousel Demo",
       "images": [
