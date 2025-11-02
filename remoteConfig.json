@@ -1,58 +1,60 @@
 {
-  "bonus_tiers": [
-    {
-      "min": 60,
-      "max": 249.99,
-      "bonus": 10
-    },
-    {
-      "min": 250,
-      "max": 599.99,
-      "bonus": 20
-    },
-    {
-      "min": 600,
-      "max": 1299.99,
-      "bonus": 50
-    },
-    {
-      "min": 1300,
-      "max": null,
-      "bonus": 100
-    }
-  ],
-  "info_rows": [
-    {
-      "icon": "\uf017",
-      "text": "Gültig bis 30.06.2026"
-    },
-    {
-      "icon": "\uf00c",
-      "text": "Kombinierbar mit Aktionen"
-    },
-    {
-      "icon": "\uf07a",
-      "text": "Automatische Einlösung"
-    },
-    {
-      "icon": "\uf06b",
-      "text": "Nicht gültig für Geschenkgutscheine"
-    },
-    {
-      "icon": "\uf3ed",
-      "text": "In allen Filialen einlösbar"
-    },
-    {
-      "icon": "\uf0c9",
-      "text": "Mehrere Boni können gesammelt werden"
-    },
-    {
-      "icon": "\uf091",
-      "text": "Benachrichtigung bei Bonus-Aktivierung"
-    },
-    {
-      "icon": "\uf02d",
-      "text": "Details in AGB einsehbar"
-    }
-  ]
+  "bonus-settings": {
+    "bonus_tiers": [
+      {
+        "min": 60,
+        "max": 249.99,
+        "bonus": 10
+      },
+      {
+        "min": 250,
+        "max": 599.99,
+        "bonus": 20
+      },
+      {
+        "min": 600,
+        "max": 1299.99,
+        "bonus": 50
+      },
+      {
+        "min": 1300,
+        "max": null,
+        "bonus": 100
+      }
+    ],
+    "info_rows": [
+      {
+        "icon": "\uf017",
+        "text": "Gültig bis 30.06.2026"
+      },
+      {
+        "icon": "\uf00c",
+        "text": "Kombinierbar mit Aktionen"
+      },
+      {
+        "icon": "\uf07a",
+        "text": "Automatische Einlösung"
+      },
+      {
+        "icon": "\uf06b",
+        "text": "Nicht gültig für Geschenkgutscheine"
+      },
+      {
+        "icon": "\uf3ed",
+        "text": "In allen Filialen einlösbar"
+      },
+      {
+        "icon": "\uf0c9",
+        "text": "Mehrere Boni können gesammelt werden"
+      },
+      {
+        "icon": "\uf091",
+        "text": "Benachrichtigung bei Bonus-Aktivierung"
+      },
+      {
+        "icon": "\uf02d",
+        "text": "Details in AGB einsehbar"
+      }
+    ]
+  }
 }
